@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@section scripts
+{
+    <script type="text/javascript" src="~/Scripts/app.js"></script>
+}
+
+<br />
+
+<div class="row">
+    <div>
+        <div class="col-md-1">入力</div>
+        <div class="col-md-11">
+            <input ng-model="inputText" type="text" multiple />
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div>
+        <div class="col-md-1">変換</div>
+        <div class="col-md-11">
+            <button ng-click="convert">変換</button>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div>
+        <div class="col-md-1">出力</div>
+        <div class="col-md-11">
+            <input ng-model="outputText" type="text" multiple />
+        </div>
+    </div>
+</div>
+
+
